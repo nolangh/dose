@@ -17,7 +17,8 @@
     "lodash": "^4.17.21",
     "next": "13.4.19",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "socket.io": "^4.7.2"
   },
   "module": "index.ts",
   "type": "module",
