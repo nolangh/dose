@@ -3,15 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --turbo",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
     "@capacitor/core": "^5.3.0",
-    "@supabase/supabase-js": "^2.33.1",
-    "bootstrap": "5.3.1",
+    "@supabase/supabase-js": "^2.36.0",
+    "bootstrap": "^5.3.2",
     "eslint": "8.49.0",
     "eslint-config-next": "13.4.19",
     "lodash": "^4.17.21",
