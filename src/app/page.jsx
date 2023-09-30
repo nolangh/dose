@@ -1,8 +1,6 @@
 import Image from 'next/image'
-import styles from './page.module.css'
 import Link from 'next/link'
-import signup from "./signup/page.jsx"
-import Login from "./login/page.jsx"
+import Button from "react-bootstrap/Button"
 
 export default function Home() {
   return (
@@ -14,11 +12,11 @@ export default function Home() {
           </Link>
         </button>
 
-      <button>
+      <Button type="button" variant="outline-danger">
       <Link href="./login/">
       Login
       </Link>
-      </button>
+      </Button>
     </main>
   )
 }
