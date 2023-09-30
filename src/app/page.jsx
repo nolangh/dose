@@ -5,12 +5,13 @@ import { setupIonicReact } from '@ionic/react'
 import React from 'react'
 import Link from 'next/link'
 import { IonButton } from '@ionic/react'
+import { IonContent } from '@ionic/react'
 
 setupIonicReact()
 
 export default function Home() {
   return (
-  <main> 
+<IonicContent>
       <p>Home page</p>
         <IonButton> 
         <Link href="/signup">
@@ -23,6 +24,6 @@ export default function Home() {
       Login
       </Link>
       </IonButton>
-    </main>
+      </IonicContent>
   )
 }
