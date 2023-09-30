@@ -1,6 +1,7 @@
 import Image from 'next/image'
+import React from 'react'
 import Link from 'next/link'
-import Button from "react-bootstrap/Button"
+import { IonButton } from '@ionic/react'
 
 export default function Home() {
   return (
@@ -12,11 +13,11 @@ export default function Home() {
           </Link>
         </button>
 
-      <Button type="button" variant="outline-danger">
+      <IonButton>
       <Link href="./login/">
       Login
       </Link>
-      </Button>
+      </IonButton>
     </main>
   )
 }
