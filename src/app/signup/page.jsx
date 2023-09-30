@@ -1,16 +1,20 @@
+'use client'
+import '@ionic/react/css/core.css'
+import { setupIonicReact } from '@ionic/react'
+import React from 'react'
 import Link from 'next/link'
+import { IonButton } from '@ionic/react'
 
-
-
-export default function SignUp() {
+setupIonicReact()
+export default function Signup(){
   return (
 <main>
 
-      <button>
+      <IonButton>
 <Link href="/">
           Home
         </Link>
-      </button>
+      </IonButton>
   Signup
   </main>
   )
