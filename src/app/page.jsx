@@ -2,10 +2,9 @@ import 'bootstrap/dist/css/bootstrap.css'
 import React from 'react'
 import Link from 'next/link'
 
-
 export default function Home() {
   return (
-      <main className='container'>
+      <main>
       <p>Home page</p>
         <button> 
         <Link href="/signup">
