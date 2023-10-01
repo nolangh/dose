@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-      <main>
+  <main>
       <p>Home page</p>
       <p>Test for prettier</p>
         <button> 
@@ -12,11 +12,11 @@ export default function Home() {
           Sign Up
           </Link>
         </button>
-<button>
-      <Link href="./login/">
-      Login
-      </Link>
-</button>
-      </main>
+        <button>
+          <Link href="./login/">
+            Login
+          </Link>
+        </button>
+  </main>
   )
 }
