@@ -2,7 +2,7 @@
 
 Prescription Managment
 
-Tech Stack
+Tech Stack:
     - Next.js
     - SupaBase
     - Ionic
