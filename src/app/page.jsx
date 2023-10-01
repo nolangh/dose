@@ -6,6 +6,7 @@ export default function Home() {
   return (
       <main>
       <p>Home page</p>
+      <p>Test for prettier</p>
         <button> 
         <Link href="/signup">
           Sign Up
