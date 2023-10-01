@@ -24,9 +24,21 @@
   "module": "index.ts",
   "type": "module",
   "devDependencies": {
-    "bun-types": "latest",
+    "bun-types": "latest"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
-  }
+  },
+  "description": "Prescription Managment",
+  "main": "next.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nolangh/dose.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nolangh/dose/issues"
+  },
+  "homepage": "https://github.com/nolangh/dose#readme"
 }
