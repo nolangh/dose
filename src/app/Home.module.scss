@@ -1,12 +1,23 @@
-.a_tag_container {
-    background-color: coral;
+.links {
+    background: #FBCA1F;
+    color: black;
+    font-family: inherit;
+    padding: 0.6em 1.3em;
+    font-weight: 900;
+    font-size: 18px;
+    border: 3px solid black;
+    border-radius: 0.4em;
+    box-shadow: 0.1em 0.1em;
+    text-decoration: none;
+}
 
-    .a_tag {
-        display: inline-block;
-        position: relative;
-        font-size: 0.875rem;
-        line-height: 1.25rem;
-        font-weight: 500;
-        color: #4F46E5;
-    }
+.links:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em;
+}
+
+.links:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em;
+    text-decoration: none;
 }
