@@ -7,7 +7,7 @@ export default function Home() {
 	return (
 		<div>
 			<main>
-				<p>Home Page</p>
+				<h1>DOSE</h1>
 				<Link href="/signup" className={styles.links}>
 					Sign Up
 				</Link>
