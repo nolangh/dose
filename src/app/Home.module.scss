@@ -3,15 +3,17 @@ main {
     flex-direction: column;
     width: 100vw;
     height: 100vh;
-    margin: 0;
-    padding: 0;
 
     .button_cont {
+        display: flex;
         width: 100vw;
         height: 50%;
         background-color: coral;
+        justify-content: center;
+        align-items: center;
 
         .links {
+            align-self: flex-end;
             background: #FBCA1F;
             color: black;
             font-family: inherit;

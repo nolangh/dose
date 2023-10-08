@@ -1,14 +1,4 @@
 /* chunk [output]/.next/server/app/chunks/rsc/src_app_globals.css */
 /* [project]/src/app/globals.css (css, rsc) */
-:root {
-  --max-width: 1100px;
-  --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
-		"Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
-		"Fira Mono", "Droid Sans Mono", "Courier New", monospace;
-}
-body {
-  background: blue;
-  width: 100vw;
-  height: 100vh;
-}
+/* unparseable [project]/src/app/globals.css (css) */
 

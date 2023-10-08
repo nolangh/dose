@@ -6676,7 +6676,7 @@ __turbopack_esm__({
 });
 const chunks = [
   "chunks/rsc/[next]_internal_font_google_roboto_mono_81e1d07a_module.css",
-  "chunks/rsc/src_app_globals.css"
+  "chunks/rsc/src_app_global_scss.css"
 ];
 
 })()),
