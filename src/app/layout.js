@@ -3,6 +3,7 @@ import { Roboto_Mono } from "next/font/google";
 const robotoMono = Roboto_Mono({ subsets: ["latin"] });
 
 export const metadata = {
+	weight: 700,
 	title: "Dose home page",
 	description: "Home",
 };
