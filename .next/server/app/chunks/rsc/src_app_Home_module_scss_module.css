@@ -1,0 +1,24 @@
+/* chunk [output]/.next/server/app/chunks/rsc/src_app_Home_module_scss_module.css */
+/* [project]/src/app/Home.module.scss.module.css (css, rsc) */
+main .links__Home__259b4ce8 {
+  background: #fbca1f;
+  color: #000;
+  font-family: inherit;
+  padding: .6em 1.3em;
+  font-weight: 900;
+  font-size: 18px;
+  border: 3px solid #000;
+  border-radius: .4em;
+  box-shadow: .1em .1em;
+  text-decoration: none;
+}
+main .links__Home__259b4ce8:hover {
+  transform: translate(-0.05em, -0.05em);
+  box-shadow: .15em .15em;
+}
+main .links__Home__259b4ce8:active {
+  transform: translate(0.05em, 0.05em);
+  box-shadow: .05em .05em;
+  text-decoration: none;
+}
+
