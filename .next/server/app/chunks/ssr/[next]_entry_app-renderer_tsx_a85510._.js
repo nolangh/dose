@@ -30,8 +30,8 @@
     "chunks/ssr/node_modules_bootstrap_dist_css_bootstrap.css",
     "chunks/ssr/src_app_signup_Signup_module_scss_module.css",
     "chunks/rsc/[next]_internal_font_google_inter_92243eee_module.css",
-    "chunks/rsc/[next]_internal_font_google_roboto_mono_81e1d07a_module.css",
-    "chunks/rsc/src_app_global_scss.css"
+    "chunks/rsc/src_app_global_scss.css",
+    "chunks/rsc/[next]_internal_font_google_roboto_mono_81e1d07a_module.css"
   ],
   "source": "entry"
 });
