@@ -2,24 +2,17 @@
 import "bootstrap/dist/css/bootstrap.css";
 import React from "react";
 import Link from "next/link";
-import styled from "styled-components";
-
-{
-	/*Styled componenets */
-}
-const Main = styled.main`
-	background-color: darkolivegreen;
-`;
+import styles from "./Signup.module.scss";
 
 export default function Signup() {
 	return (
 		<div>
-			<Main className="container-fluid">
+			<main className={styles.main}>
 				<button>
 					<Link href="/">Home</Link>
 				</button>
 				Signup
-			</Main>
+			</main>
 		</div>
 	);
 }

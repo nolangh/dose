@@ -1,15 +1,14 @@
-import React from 'react'
-import Link from 'next/link'
+import React from "react";
+import Link from "next/link";
+import styles from "./Login.module.scss";
 
-
-export default function Login(){
-  return (
-  <main>
-  <p>Login page</p>
-
-      <button>
-      <Link href="/">Home</Link>
-      </button>
-  </main>
-)
+export default function Login() {
+	return (
+		<main className={styles.main_container}>
+			<p>Login page</p>
+			<button className={styles.test}>
+				<Link href="/">Home</Link>
+			</button>
+		</main>
+	);
 }

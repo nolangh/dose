@@ -1,0 +1,12 @@
+.a_tag_container {
+    background-color: coral;
+
+    .a_tag {
+        display: inline-block;
+        position: relative;
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+        font-weight: 500;
+        color: #4F46E5;
+    }
+}
