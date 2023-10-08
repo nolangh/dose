@@ -12,7 +12,7 @@ export default function Home() {
       <div className={styles.heroSection}></div>
       <div className={styles.button_cont}>
         <Link href="/signup" className={styles.links}>
-          Sign Up
+          SignUp
         </Link>
         <Link href="./login/" className={styles.links}>
           Login
