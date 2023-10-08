@@ -15,13 +15,15 @@ export default function Home() {
 					<li>4</li>
 				</ul>
 			</div>
-			<Link href="/signup" className={styles.links}>
-				Sign Up
-			</Link>
-			<Link href="./login/" className={styles.links}>
-				Login
-			</Link>
-			{/*End Button sections*/}
+			<div className={styles.button_cont}>
+				<Link href="/signup" className={styles.links}>
+					Sign Up
+				</Link>
+				<Link href="./login/" className={styles.links}>
+					Login
+				</Link>
+				{/*End Button sections*/}
+			</div>
 		</main>
 	);
 }

@@ -6511,6 +6511,7 @@ const chunks = [];
 "[project]/src/app/Home.module.scss.module.css (css module, rsc)": (({ r: __turbopack_require__, f: __turbopack_require_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, l: __turbopack_load__, j: __turbopack_dynamic__, g: global, __dirname }) => (() => {
 
 __turbopack_export_value__({
+  "button_cont": "button_cont__Home__259b4ce8",
   "links": "links__Home__259b4ce8",
 });
 
@@ -6583,22 +6584,31 @@ function Home() {
                 lineNumber: 10,
                 columnNumber: 4
             }, this),
-            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$28$ecmascript$29$__["default"], {
-                href: "/signup",
-                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Home$2e$module$2e$scss$2e$module$2e$css__$28$css__module$29$__["default"].links,
-                children: "Sign Up"
-            }, void 0, false, {
+            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
+                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Home$2e$module$2e$scss$2e$module$2e$css__$28$css__module$29$__["default"].button_cont,
+                children: [
+                    __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$28$ecmascript$29$__["default"], {
+                        href: "/signup",
+                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Home$2e$module$2e$scss$2e$module$2e$css__$28$css__module$29$__["default"].links,
+                        children: "Sign Up"
+                    }, void 0, false, {
+                        fileName: "<[project]/src/app/page.jsx>",
+                        lineNumber: 19,
+                        columnNumber: 5
+                    }, this),
+                    __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$28$ecmascript$29$__["default"], {
+                        href: "./login/",
+                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Home$2e$module$2e$scss$2e$module$2e$css__$28$css__module$29$__["default"].links,
+                        children: "Login"
+                    }, void 0, false, {
+                        fileName: "<[project]/src/app/page.jsx>",
+                        lineNumber: 22,
+                        columnNumber: 5
+                    }, this)
+                ]
+            }, void 0, true, {
                 fileName: "<[project]/src/app/page.jsx>",
                 lineNumber: 18,
-                columnNumber: 4
-            }, this),
-            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$28$ecmascript$29$__["default"], {
-                href: "./login/",
-                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Home$2e$module$2e$scss$2e$module$2e$css__$28$css__module$29$__["default"].links,
-                children: "Login"
-            }, void 0, false, {
-                fileName: "<[project]/src/app/page.jsx>",
-                lineNumber: 21,
                 columnNumber: 4
             }, this)
         ]
@@ -6633,6 +6643,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 "__TURBOPACK__ecmascript__hoisting__location__";
 ;
 ;
+;
 const metadata = {
     weight: 700,
     title: "Dose home page",
@@ -6646,12 +6657,12 @@ function RootLayout({ children }) {
             children: children
         }, void 0, false, {
             fileName: "<[project]/src/app/layout.js>",
-            lineNumber: 14,
+            lineNumber: 15,
             columnNumber: 4
         }, this)
     }, void 0, false, {
         fileName: "<[project]/src/app/layout.js>",
-        lineNumber: 13,
+        lineNumber: 14,
         columnNumber: 3
     }, this);
 }
@@ -6664,7 +6675,8 @@ __turbopack_esm__({
     chunks: () => chunks,
 });
 const chunks = [
-  "chunks/rsc/[next]_internal_font_google_roboto_mono_81e1d07a_module.css"
+  "chunks/rsc/[next]_internal_font_google_roboto_mono_81e1d07a_module.css",
+  "chunks/rsc/src_app_globals.css"
 ];
 
 })()),

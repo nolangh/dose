@@ -1,5 +1,18 @@
 /* [project]/src/app/Home.module.scss.module.css (css, rsc) */
-main .links__Home__259b4ce8 {
+main {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+main .button_cont__Home__259b4ce8 {
+  width: 100vw;
+  height: 50%;
+  background-color: coral;
+}
+main .button_cont__Home__259b4ce8 .links__Home__259b4ce8 {
   background: #fbca1f;
   color: #000;
   font-family: inherit;
@@ -11,11 +24,11 @@ main .links__Home__259b4ce8 {
   box-shadow: .1em .1em;
   text-decoration: none;
 }
-main .links__Home__259b4ce8:hover {
+main .button_cont__Home__259b4ce8 .links__Home__259b4ce8:hover {
   transform: translate(-0.05em, -0.05em);
   box-shadow: .15em .15em;
 }
-main .links__Home__259b4ce8:active {
+main .button_cont__Home__259b4ce8 .links__Home__259b4ce8:active {
   transform: translate(0.05em, 0.05em);
   box-shadow: .05em .05em;
   text-decoration: none;
