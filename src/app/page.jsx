@@ -4,9 +4,8 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-  <main>
+  <main className="container">
       <p>Home page</p>
-      <p>Test for prettier</p>
         <button> 
         <Link href="/signup">
           Sign Up
