@@ -6,16 +6,10 @@ import styles from "./Home.module.scss";
 export default function Home() {
   return (
     <main>
-      <h1 className={styles.title}>DOSE</h1>
-      <div>
-        <ul>
-          <li>1</li>
-          <li>2</li>
-          <li>test for formatting</li>
-          <li>3</li>
-          <li>4</li>
-        </ul>
+      <div className={styles.titleContainer}>
+        <h1 className={styles.title}>DOSE</h1>
       </div>
+      <div className={styles.heroSection}></div>
       <div className={styles.button_cont}>
         <Link href="/signup" className={styles.links}>
           Sign Up

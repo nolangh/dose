@@ -6,16 +6,24 @@ main {
   width: 100vw;
   height: 100vh;
 }
+main .titleContainer__Home__259b4ce8 {
+  height: 33.3%;
+  width: 100%;
+}
+main .titleContainer__Home__259b4ce8 .title__Home__259b4ce8 {
+  text-align: center;
+}
+main .heroSection__Home__259b4ce8 {
+  height: 33.3%;
+}
 main .button_cont__Home__259b4ce8 {
   display: flex;
   width: 100vw;
-  height: 50%;
-  background-color: coral;
+  height: 33.3%;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 main .button_cont__Home__259b4ce8 .links__Home__259b4ce8 {
-  align-self: flex-end;
   background: #fbca1f;
   color: #000;
   font-family: inherit;

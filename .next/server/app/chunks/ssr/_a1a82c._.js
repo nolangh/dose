@@ -6512,7 +6512,10 @@ const chunks = [];
 
 __turbopack_export_value__({
   "button_cont": "button_cont__Home__259b4ce8",
+  "heroSection": "heroSection__Home__259b4ce8",
   "links": "links__Home__259b4ce8",
+  "title": "title__Home__259b4ce8",
+  "titleContainer": "titleContainer__Home__259b4ce8",
 });
 
 })()),
@@ -6534,55 +6537,27 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Home$2e$module
 function Home() {
     return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("main", {
         children: [
-            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("h1", {
-                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Home$2e$module$2e$scss$2e$module$2e$css__$28$css__module$29$__["default"].title,
-                children: "DOSE"
-            }, void 0, false, {
-                fileName: "<[project]/src/app/page.jsx>",
-                lineNumber: 9,
-                columnNumber: 4
-            }, this),
             __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("ul", {
-                    children: [
-                        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("li", {
-                            children: "1"
-                        }, void 0, false, {
-                            fileName: "<[project]/src/app/page.jsx>",
-                            lineNumber: 12,
-                            columnNumber: 6
-                        }, this),
-                        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("li", {
-                            children: "2"
-                        }, void 0, false, {
-                            fileName: "<[project]/src/app/page.jsx>",
-                            lineNumber: 13,
-                            columnNumber: 6
-                        }, this),
-                        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("li", {
-                            children: "3"
-                        }, void 0, false, {
-                            fileName: "<[project]/src/app/page.jsx>",
-                            lineNumber: 14,
-                            columnNumber: 6
-                        }, this),
-                        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("li", {
-                            children: "4"
-                        }, void 0, false, {
-                            fileName: "<[project]/src/app/page.jsx>",
-                            lineNumber: 15,
-                            columnNumber: 6
-                        }, this)
-                    ]
-                }, void 0, true, {
+                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Home$2e$module$2e$scss$2e$module$2e$css__$28$css__module$29$__["default"].titleContainer,
+                children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("h1", {
+                    className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Home$2e$module$2e$scss$2e$module$2e$css__$28$css__module$29$__["default"].title,
+                    children: "DOSE"
+                }, void 0, false, {
                     fileName: "<[project]/src/app/page.jsx>",
-                    lineNumber: 11,
-                    columnNumber: 5
+                    lineNumber: 10,
+                    columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "<[project]/src/app/page.jsx>",
-                lineNumber: 10,
-                columnNumber: 4
+                lineNumber: 9,
+                columnNumber: 7
+            }, this),
+            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
+                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Home$2e$module$2e$scss$2e$module$2e$css__$28$css__module$29$__["default"].heroSection
+            }, void 0, false, {
+                fileName: "<[project]/src/app/page.jsx>",
+                lineNumber: 12,
+                columnNumber: 7
             }, this),
             __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
                 className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$Home$2e$module$2e$scss$2e$module$2e$css__$28$css__module$29$__["default"].button_cont,
@@ -6593,8 +6568,8 @@ function Home() {
                         children: "Sign Up"
                     }, void 0, false, {
                         fileName: "<[project]/src/app/page.jsx>",
-                        lineNumber: 19,
-                        columnNumber: 5
+                        lineNumber: 14,
+                        columnNumber: 9
                     }, this),
                     __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$28$ecmascript$29$__["default"], {
                         href: "./login/",
@@ -6602,20 +6577,20 @@ function Home() {
                         children: "Login"
                     }, void 0, false, {
                         fileName: "<[project]/src/app/page.jsx>",
-                        lineNumber: 22,
-                        columnNumber: 5
+                        lineNumber: 17,
+                        columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "<[project]/src/app/page.jsx>",
-                lineNumber: 18,
-                columnNumber: 4
+                lineNumber: 13,
+                columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "<[project]/src/app/page.jsx>",
         lineNumber: 8,
-        columnNumber: 3
+        columnNumber: 5
     }, this);
 }
 

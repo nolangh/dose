@@ -1,40 +1,51 @@
 main {
-    display: flex;
-    flex-direction: column;
-    width: 100vw;
-    height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
 
-    .button_cont {
-        display: flex;
-        width: 100vw;
-        height: 50%;
-        background-color: coral;
-        justify-content: center;
-        align-items: center;
+  .titleContainer {
+    height: 33.3%;
+    width: 100%;
 
-        .links {
-            align-self: flex-end;
-            background: #FBCA1F;
-            color: black;
-            font-family: inherit;
-            padding: 0.6em 1.3em;
-            font-weight: 900;
-            font-size: 18px;
-            border: 3px solid black;
-            border-radius: 0.4em;
-            box-shadow: 0.1em 0.1em;
-            text-decoration: none;
-        }
-
-        .links:hover {
-            transform: translate(-0.05em, -0.05em);
-            box-shadow: 0.15em 0.15em;
-        }
-
-        .links:active {
-            transform: translate(0.05em, 0.05em);
-            box-shadow: 0.05em 0.05em;
-            text-decoration: none;
-        }
+    .title {
+      text-align: center;
     }
+  }
+
+  .heroSection {
+    height: 33.3%;
+  }
+
+  .button_cont {
+    display: flex;
+    width: 100vw;
+    height: 33.3%;
+    justify-content: center;
+    align-items: flex-start;
+
+    .links {
+      background: #fbca1f;
+      color: black;
+      font-family: inherit;
+      padding: 0.6em 1.3em;
+      font-weight: 900;
+      font-size: 18px;
+      border: 3px solid black;
+      border-radius: 0.4em;
+      box-shadow: 0.1em 0.1em;
+      text-decoration: none;
+    }
+
+    .links:hover {
+      transform: translate(-0.05em, -0.05em);
+      box-shadow: 0.15em 0.15em;
+    }
+
+    .links:active {
+      transform: translate(0.05em, 0.05em);
+      box-shadow: 0.05em 0.05em;
+      text-decoration: none;
+    }
+  }
 }
